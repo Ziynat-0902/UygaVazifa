@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+.energiy{
+    display: flex;
+    width: 1086px;
+    height: 383px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.after{
+    display: flex;
+}
+.energiy-text h2{
+    width: 541px;
+    margin: 0 auto;
+    color: #284B80;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.energiy-text p{
+    width: 541px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 55px;
+    color: #8D98AA;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 140%;
+}
+.after-img img{
+    width: 63px;
+    height: 63px;
+    margin-right: 24px;
+}
+.energiy-text{
+    margin-left: 33px;
+}
+.after-text h4{
+    color: #284B80;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.after-text p{
+    width: 250px;
+    color: #8D98AA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+}
+.after-icon img{
+    width: 24px;
+    height: 24px;
+    margin-left: 140px;
+}
+.fruits{
+    margin-top: 112px;
+}
+.cards{
+    width: 354px;
+    height: 521px;
+    padding: 14px 14px 24px 14px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card-text h3{
+    color: #284B80;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.card-iamge img{
+    width: 64px;
+    align-self: stretch;
+    border-radius: 64px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.display{
+    display: flex;
+    gap: 24px;
+}
+.nature{
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin-top: 96px;
+}
+.nature-img img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.nature h3{
+    color:  #6E7491;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.location{
+    display: flex;
+}
+.location-text p{
+    margin-top: 5px;
+    margin-left: 5px;
+    color:  #7C8DB0;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.location-text >p{
+    margin-bottom: 43px;
+}
+ button{ 
+    margin: 0 auto;
+    display: flex;
+    padding: 8px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    background: #2D9CDB;
+    color:  #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+.nature{
+    padding: 16px;
+    margin-bottom: 112px;
+}
+.natures{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.location-text span{
+    color: black;
+}
+.location-sum{
+    display: flex;
+    justify-content: space-around;
+}
+/* section teachers */
+.teacher-cards{
+display: flex;
+width: 900px;
+padding: 16px;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex-wrap: wrap;
+border-radius: 16px;
+background: #F5F9FF;
+margin-bottom: 112px;
+}
+.teacher-card{
+    border: none;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+}.teacher-card:hover{
+    border: 1px solid  #5D5FEF;
+}
+.teacher-card >img{
+    display: flex;
+    justify-content: center;
+}
+.teacher-card h5{
+    color: var(--dark-extrabold, #414F58);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 18px;
+margin-bottom: 5px;
+}
+.teacher-card p{
+    color: var(--dark-light, #C6CDD5);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+align-items: center;
+width: 100px;
+margin: 0 auto;
+}
+.teacher-card p img{
+    width: 15px;
+height: 15px;
+margin-right: 5px;
+}
+hr{
+    margin: 13px 0px;
+    opacity: 0.5;
+}
+.teacher-card-sums{
+    display: flex;
+    gap: 37px;
+}
+.teacher-card-sums span{
+    color: var(--dark-extrabold, #414F58);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+/* section office */
+.offices{
+    margin-bottom: 161px;
+}
+.office{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.office img{
+    border-top-right-radius:16px ;
+    border-top-left-radius: 16px;
+}
+.office-cards{
+padding: 16px 16px 32px 16px;
+gap: 30px;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.offices-card{
+    display: flex;
+    gap: 170px;
+}
+.offices-card h3{
+    color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 27px;
+
+}
+.offices-card button{
+    display: flex;
+width: 115px;
+padding: 8px 16px;
+justify-content: center;
+align-items: flex-start;
+gap: 18px;
+border-radius: 32px;
+border: 1px solid  #598EC2;
+color: #598EC2;
+background-color: #fff;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+.office-cards h4{
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+}
+.like{
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
+.like-icon p{
+    display: flex;
+width: 56px;
+padding: 4px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 17px;
+background: #27AE60;
+color: #ECEFF1;
+text-align: center;
+font-family: Raleway;
+font-size: 14px;
+font-weight: 600;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+}
+.word p{
+    color: #90A4AE;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+}
+.word h4{
+    color:  #607D8A;
+    margin-top: 11px;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.word span{
+    border: 1px solid #27AE60;
+    margin-right: 5px;
+}
+/* section wedding */
+.wedding{
+    margin-bottom: 112px;
+}
+.wedding-text{
+    display: flex;
+    padding: 16px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    gap: 16px;
+    justify-content: space-between;
+}
+.wedding-text h4{
+    color: var(--dark-extrabold, #414F58);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: normal;
+}
+.wedding-text p{
+    color: var(--dark-semibold, #6D8493);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: normal;
+}
